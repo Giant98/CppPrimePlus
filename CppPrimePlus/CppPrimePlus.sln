@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "简单实现智能指针", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "虚函数测试", "..\虚函数测试\虚函数测试.vcxproj", "{7E534E72-73BD-4F5C-8BCD-71EC1B9DCD5A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "侯捷面向对象_上", "..\侯捷面向对象_上\侯捷面向对象_上.vcxproj", "{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{7E534E72-73BD-4F5C-8BCD-71EC1B9DCD5A}.Release|x64.Build.0 = Release|x64
 		{7E534E72-73BD-4F5C-8BCD-71EC1B9DCD5A}.Release|x86.ActiveCfg = Release|Win32
 		{7E534E72-73BD-4F5C-8BCD-71EC1B9DCD5A}.Release|x86.Build.0 = Release|Win32
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Debug|x64.ActiveCfg = Debug|x64
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Debug|x64.Build.0 = Debug|x64
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Debug|x86.Build.0 = Debug|Win32
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Release|x64.ActiveCfg = Release|x64
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Release|x64.Build.0 = Release|x64
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Release|x86.ActiveCfg = Release|Win32
+		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
