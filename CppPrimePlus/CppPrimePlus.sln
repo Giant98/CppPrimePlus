@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "虚函数测试", "..\虚�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "侯捷面向对象_上", "..\侯捷面向对象_上\侯捷面向对象_上.vcxproj", "{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "侯捷面向对象_下", "..\侯捷面向对象_下\侯捷面向对象_下.vcxproj", "{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Release|x64.Build.0 = Release|x64
 		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Release|x86.ActiveCfg = Release|Win32
 		{A9E3BC9D-FD78-4C60-89E2-A8DC3AA9C9AE}.Release|x86.Build.0 = Release|Win32
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Debug|x64.ActiveCfg = Debug|x64
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Debug|x64.Build.0 = Debug|x64
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Debug|x86.Build.0 = Debug|Win32
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Release|x64.ActiveCfg = Release|x64
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Release|x64.Build.0 = Release|x64
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Release|x86.ActiveCfg = Release|Win32
+		{8D040A87-4E4B-4D1D-A555-E7D04F60FA75}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
