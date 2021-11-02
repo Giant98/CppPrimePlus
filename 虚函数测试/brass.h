@@ -10,7 +10,7 @@ private:
 public:
 	Brass(const std::string& s = "Nullbody", long an = -1, double bal = 0.0);
 	virtual void ViewAcct() const;//若不被声明为虚函数，则无论何时都调用Brass::ViewAcct()
-	virtual ~Brass(){}
+	virtual ~Brass() {}
 };
 
 class BrassPlus :public Brass
@@ -24,6 +24,8 @@ public:
 	BrassPlus(const Brass& ba, double ml = 500, double r = 0.11125);
 	virtual void ViewAcct()const;
 };
+
+
 /*##########Stack 类模板#############*/
 template <typename T>
 class Stack//类模板
@@ -44,13 +46,14 @@ Stack<T>::Stack()
 }
 
 template<typename T>
-bool Stack<T>::isEmpty() 
+bool Stack<T>::isEmpty()
 {
 	return top == 0;
 }
 
+
 /*##########ArrayTP 包含非类型（表达式）参数的类模板#############*/
-template<typename T,int n>
+template<typename T, int n>
 class ArrayTP
 {
 private:
@@ -61,13 +64,19 @@ public:
 	virtual T& operator[](int i);
 };
 
-template<typename T,int n>
+template<typename T, int n>
 ArrayTP<T, n>::ArrayTP(const T& v) {
 	for (int i = 0; i < n; i++)arr[i] = v;
 }
-template<typename T,int n>
+template<typename T, int n>
 T& ArrayTP<T, n>::operator[](int i)
 {
 	return arr[i];
+}
+template<typename T, int n, int m>//默认n<m
+ArrayTP<T, n>change(const ArrayTP<T, m>& B){
+	ArrayTP<T, n>A(1);
+	for (int i = 0; i < n; i++)A[i] = 5;
+	return A;
 }
 #endif

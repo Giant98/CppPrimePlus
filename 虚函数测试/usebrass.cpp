@@ -33,6 +33,8 @@ int main() {
 
 	//测试有非类型参数的类模板
 	ArrayTP<int, 5>A(5);
-	if(A[4]==5)	cout << "有非参数的模板类测试成功" << endl;
+	if(A[4]==5)	cout << "生成有非参数的模板类对象测试成功" << endl;
+	ArrayTP<int, 4>A_4 = change<int,4>(A);
+	if(A[3]==5) cout << "有非参数的模板类定义测试成功" << endl;
 	return 0;
 }
