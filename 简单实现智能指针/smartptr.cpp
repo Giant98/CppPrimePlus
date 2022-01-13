@@ -6,6 +6,7 @@ int main()
 {
 	//测试构造函数和赋值运算符重载函数
 	SmartPtr<int>p1(new int(0));
+	cout << "test";
 	p1 = p1;
 	//测试拷贝函数
 	SmartPtr<int>p2(p1);
