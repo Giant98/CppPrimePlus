@@ -11,7 +11,7 @@ public:
 	SmartPtr<T>& operator=(const SmartPtr<T>& rhs);	//浅拷贝
 private:
 	T* ptr;
-	//将use_count声明为指针，是为了方便对其的递增或递减操作
+	//将use_count声明为指针，是为了方便对其的递增或递减操作，方便共享
 	int* use_count;
 };
 
